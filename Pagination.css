@@ -1,0 +1,27 @@
+/* Pagination.css */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-item button {
+    background-color: #35495e;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .page-item button.active {
+    background-color: #293c4d;
+  }
+  
